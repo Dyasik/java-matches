@@ -8,7 +8,7 @@ public class AlwaysWinningMatchesAITest {
 
     @Test
     public void testPickMatches() {
-        var ai = new AlwaysWinningMatchesAI();
+        AlwaysWinningMatchesAI ai = new AlwaysWinningMatchesAI();
         int[][] testData = {
             { 6, 3, 1 },
             { 5, 3, 3 },
